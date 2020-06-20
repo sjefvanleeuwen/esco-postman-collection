@@ -1,0 +1,570 @@
+{
+	"info": {
+		"_postman_id": "1af207a8-f94a-4241-92aa-28880bcb4033",
+		"name": "ESCO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Taxonomy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"taxonomy"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/concept-scheme/isco"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C0. Beroepen bij de strijdkrachten",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C0&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C0"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C1. Leidinggevende Functies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C1"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C11. Directeuren van grote ondernemingen, beleidvoerende functies, leden van wetgevende lichamen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C11&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C11"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C111. Leden van wetgevende lichamen, beleidvoerende functies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C111&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C111"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C1112.  Ambtenaren in beleidvoerende functies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1112&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C1112"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Occupation: Diplomaat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1fb92021-9576-4c85-8759-f6918e9f0ad4&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"occupation"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/occupation/1fb92021-9576-4c85-8759-f6918e9f0ad4"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Essential Skill: Diplomatieke besluiten nemen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/skill?uri=http://data.europa.eu/esco/skill/fd2d573f-8d35-45ca-b0a4-91cad3b178d1&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"skill"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/skill/fd2d573f-8d35-45ca-b0a4-91cad3b178d1"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Optional Skill: implementatie van overheidsbeleid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/skill?uri=http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"skill"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C2. Intellectuele, wetenschappelijke en artistieke beroepen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C2"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C3. Technici en vakspecialisten",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C3"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C4. Admininstratief Personeel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C4"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C5. Dienstverlenend personeel en verkopers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C5"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C6. Geschoolde landbouwers, bosbouwers en vissers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C6"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C7. Ambachtslieden",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C7"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C8. Bedieningspersoneel van machines en installaties, assembleurs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C8"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "C9. Elementaire Beroepen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9&language=nl",
+					"protocol": "https",
+					"host": [
+						"ec",
+						"europa",
+						"eu"
+					],
+					"path": [
+						"esco",
+						"api",
+						"resource",
+						"concept"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http://data.europa.eu/esco/isco/C9"
+						},
+						{
+							"key": "language",
+							"value": "nl"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
